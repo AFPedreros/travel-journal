@@ -1,7 +1,10 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faEarthAmericas } from "@fortawesome/free-solid-svg-icons"
+
 export default function Header() {
     return (
         <header>
-            <i class="fa-solid fa-earth-americas fa-2xl"></i>
+            <FontAwesomeIcon icon={faEarthAmericas} size="2xl" />
             <h1>my travel journal</h1>
         </header>
     )
