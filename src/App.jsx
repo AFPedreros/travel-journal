@@ -1,9 +1,13 @@
+// Id generator for JavaScript
 import { nanoid } from "nanoid"
+// Components
 import Article from "./components/Article"
 import Header from "./components/Header"
+// Articles data to display
 import data from "../data.js"
 
-function App() {
+export default function App() {
+    // Passing the data for generate the article component
     const articles = data.map((article) => {
         return (
             <Article
@@ -18,11 +22,9 @@ function App() {
     })
 
     return (
-        <>
+        <div>
             <Header />
             <div className="articles-container">{articles}</div>
-        </>
+        </div>
     )
 }
-
-export default App

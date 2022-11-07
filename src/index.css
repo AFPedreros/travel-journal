@@ -10,6 +10,10 @@ body {
     background-color: #ffffff;
 }
 
+/* =================
+   Header
+   ================= */
+
 header {
     height: 70px;
     background-color: #f55a5a;
@@ -25,24 +29,9 @@ h1 {
     margin-left: 10px;
 }
 
-h4 {
-    letter-spacing: 0.17em;
-    font-weight: 400;
-    margin-top: 15px;
-}
-
-h2 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 30px;
-    margin-top: 15px;
-}
-
-h4 > a {
-    margin-left: 10px;
-    letter-spacing: 0;
-    color: #918e9b;
-}
+/* =================
+   Main
+   ================= */
 
 .articles-container {
     margin-top: 50px;
@@ -51,6 +40,10 @@ h4 > a {
     flex-direction: column;
     justify-content: center;
 }
+
+/* =================
+   Article
+   ================= */
 
 article {
     width: 680px;
@@ -80,6 +73,29 @@ article {
 .fa-location-dot {
     color: #f55a5a;
     margin-right: 10px;
+}
+
+/* =================
+   Article - text
+   ================= */
+
+h4 {
+    letter-spacing: 0.17em;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+h4 > a {
+    margin-left: 10px;
+    letter-spacing: 0;
+    color: #918e9b;
 }
 
 .date {
